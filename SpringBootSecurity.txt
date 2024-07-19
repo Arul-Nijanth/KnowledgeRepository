@@ -4,13 +4,14 @@ SpringBoot security :
 Layers :
 Header , Payload (user details and getclaims) , and Verify Signature  - (secrete Key  - HS512 Algorithm)
 +30 mins adding for validation , checking isValidToken() , 
+Define methods for checking is the user is valid and is the session time out or not from the generated JWT.  
 
 2. UserDetails Service
 
-3.Httpsecurity - > authenticated and Authorizzation , CSRF cross site hacking
+3.Httpsecurity - > authenticated and Authorizzation , CSRF cross site hacking , Declare api's to permit 
 
 
-4. JWTAuthentication -> 14 Filters validation  - started
+4. JWTAuthentication -> 14 Filters validation  - started 
 
 
 
